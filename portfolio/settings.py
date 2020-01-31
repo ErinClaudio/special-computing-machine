@@ -22,7 +22,7 @@ SECRET_KEY = '=%7jav99#+(i3t1b+ifdzaskrt7#ou_z@np*a8gsy-fgh#5l5c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.getenv('RENDER_EXTERNAL_HOSTNAME', default=''), ('erinclaudio.com'),('127.0.0.1')]
+ALLOWED_HOSTS = [os.getenv('RENDER_EXTERNAL_HOSTNAME', default=''), ('erinclaudio.com'),('127.0.0.1'), ('localhost')]
 
 
 # Application definition
@@ -124,3 +124,5 @@ STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
 ]
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
