@@ -12,7 +12,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
@@ -22,8 +21,7 @@ SECRET_KEY = '=%7jav99#+(i3t1b+ifdzaskrt7#ou_z@np*a8gsy-fgh#5l5c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.getenv('RENDER_EXTERNAL_HOSTNAME', default=''), ('erinclaudio.com'),('127.0.0.1')]
-
+ALLOWED_HOSTS = [os.getenv('RENDER_EXTERNAL_HOSTNAME', default=''), ('erinclaudio.com'), ('127.0.0.1'), ('localhost')]
 
 # Application definition
 
@@ -34,9 +32,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',
+    'nearbyshops',
     'homepage',
     'projects',
-    'resume',
+    'stockdata',
 ]
 
 MIDDLEWARE = [
@@ -69,17 +69,26 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'portfolio.wsgi.application'
 
+# email backend
 
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.mailgun.org '
+EMAIL_HOST_USER = 'erin@mg.erinclaudio.com'
+EMAIL_HOST_PASSWORD = 'Yd7%n^NquE?xDif'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': "shops",
+        'USER': 'shopadmin3',
+        'PASSWORD': 'freedomjedi69',
+        'HOST': 'localhost',
+        'PORT': '5433'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -99,7 +108,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
@@ -113,14 +121,15 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
 ]
+
+EMAIL_BACKEND = 'django.core.email.backends.console.EmailBackend'

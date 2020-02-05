@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb2bbf2-2ac6-4dab-84d7-44bc2f0afc31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nearbyshops/templates/shops/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/teslaandteam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/teslabody.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PortfolioV4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PortfolioV4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +48,17 @@
     <expand />
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -35,10 +71,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,14 +83,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/homepage/views.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/assets/img/blog" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/assets/img/blog/details" />
       <recent name="$PROJECT_DIR$/static/assets/img/blog" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -107,6 +147,12 @@
       <workItem from="1578358683204" duration="3357000" />
       <workItem from="1578411837931" duration="2749000" />
       <workItem from="1578425128009" duration="598000" />
+      <workItem from="1580405609295" duration="6459000" />
+      <workItem from="1580500591059" duration="3729000" />
+      <workItem from="1580584301772" duration="5783000" />
+      <workItem from="1580827547628" duration="5070000" />
+      <workItem from="1580846649311" duration="2839000" />
+      <workItem from="1580910646490" duration="8537000" />
     </task>
     <servers />
   </component>
@@ -114,9 +160,19 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1578411843875">
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1580584718706">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1580584718706" />
+    <state width="875" height="700" key="SwitcherDM" timestamp="1580494085841">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="875" height="700" key="SwitcherDM/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1580494085841" />
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1580910650357">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="163" y="167" key="com.intellij.ide.util.TipDialog/-1366.52.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1578411843875" />
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/74.-745.1366.745/0.0.1440.900@0.0.1440.900" timestamp="1580500751964" />
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1580910650357" />
   </component>
 </project>
