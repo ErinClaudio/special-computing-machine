@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.mailgun.org '
 EMAIL_HOST_USER = 'erin@mg.erinclaudio.com'
-EMAIL_HOST_PASSWORD = 'Yd7%n^NquE?xDif'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': "shops",
         'USER': 'shopadmin3',
-        'PASSWORD': 'freedomjedi69',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5433'
     }
