@@ -85,7 +85,7 @@ DATABASES = {
         'USER':	'test_db_vbyh_user',
         'PASSWORD': "cwqWUrgJOuZLgadqpfZyADxSXZfIFUQa",
         'HOST': 'dpg-bour3678jd5rqb46aoag',
-        'PORT': '5433'
+        'PORT': '5432'
         }
 }
 
