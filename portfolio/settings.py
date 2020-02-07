@@ -81,7 +81,7 @@ EMAIL_USE_TLS = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': "dpg-bour3678jd5rqb46aoag",
+        'NAME': "test_db_vbyh",
         'USER':	'test_db_vbyh_user',
         'PASSWORD': "cwqWUrgJOuZLgadqpfZyADxSXZfIFUQa",
         'HOST': 'dpg-bour3678jd5rqb46aoag',
