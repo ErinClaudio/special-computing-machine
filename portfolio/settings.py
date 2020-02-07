@@ -81,12 +81,12 @@ EMAIL_USE_TLS = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': "shops",
-        'USER': 'shopadmin3',
-        'PASSWORD': 'freedomjedi69',
-        'HOST': 'localhost',
+        'NAME': "dpg-bour3678jd5rqb46aoag",
+        'USER':	'test_db_vbyh_user',
+        'PASSWORD': "cwqWUrgJOuZLgadqpfZyADxSXZfIFUQa",
+        'HOST': 'dpg-bour3678jd5rqb46aoag',
         'PORT': '5433'
-    }
+        }
 }
 
 # Password validation
