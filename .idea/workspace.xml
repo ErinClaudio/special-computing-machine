@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb2bbf2-2ac6-4dab-84d7-44bc2f0afc31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nearbyshops/templates/shops/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/teslaandteam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/teslabody.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PortfolioV4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PortfolioV4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/templates/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/templates/shops/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nearbyshops/templates/shops/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +132,8 @@
       <workItem from="1580584301772" duration="5783000" />
       <workItem from="1580827547628" duration="5070000" />
       <workItem from="1580846649311" duration="2839000" />
-      <workItem from="1580910646490" duration="8966000" />
+      <workItem from="1580910646490" duration="11572000" />
+      <workItem from="1581075527771" duration="754000" />
     </task>
     <servers />
   </component>
@@ -168,11 +149,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="875" height="700" key="SwitcherDM/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1580494085841" />
-    <state x="163" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1580910650357">
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1581081205221">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="163" y="167" key="com.intellij.ide.util.TipDialog/-1366.52.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1578411843875" />
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581075530252" />
     <state x="163" y="167" key="com.intellij.ide.util.TipDialog/74.-745.1366.745/0.0.1440.900@0.0.1440.900" timestamp="1580500751964" />
-    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1580910650357" />
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1581081205221" />
   </component>
 </project>

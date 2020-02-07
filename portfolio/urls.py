@@ -9,7 +9,7 @@ urlpatterns = [
     path('projects/', include('projects.urls')),
     path('', include('homepage.urls')),
     path('20f/', views.Home.as_view()),
-    path('stockdata/', values(c, o))
+    path('stockdata/', values)
 
 ]
 
