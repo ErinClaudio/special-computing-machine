@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb2bbf2-2ac6-4dab-84d7-44bc2f0afc31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherapp/templates/weather/weather.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/migrations/0002_auto_20200204_1505.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/templates/shops/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearbyshops/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockdata/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockdata/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockdata/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockdata/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockdata/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockdata/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockdata/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +55,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -61,13 +87,13 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/homepage/views.py" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/assets/img/blog/details" />
+      <recent name="$PROJECT_DIR$/static/assets/img/blog" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/static/assets/img/blog" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/assets/img/blog/details" />
       <recent name="$PROJECT_DIR$/static/assets/img/blog" />
     </key>
   </component>
@@ -136,6 +162,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="258" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581110999665">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="214" key="#com.intellij.fileTypes.FileTypeChooser/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1581110999665" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1580584718706">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -144,12 +174,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="875" height="700" key="SwitcherDM/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1580494085841" />
-    <state x="163" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1581081205221">
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1581351470723">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="163" y="167" key="com.intellij.ide.util.TipDialog/-1366.52.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1578411843875" />
-    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581075530252" />
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581351470723" />
     <state x="163" y="167" key="com.intellij.ide.util.TipDialog/74.-745.1366.745/0.0.1440.900@0.0.1440.900" timestamp="1580500751964" />
-    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1581081205221" />
+    <state x="163" y="167" key="com.intellij.ide.util.TipDialog/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1581110821459" />
   </component>
 </project>

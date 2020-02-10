@@ -33,9 +33,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.gis',
-    'nearbyshops',
     'homepage',
     'projects',
+    'weatherapp'
+
 ]
 
 MIDDLEWARE = [
@@ -80,13 +81,10 @@ EMAIL_USE_TLS = True
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': "test_db_vbyh",
-        'USER':	'test_db_vbyh_user',
-        'PASSWORD': "cwqWUrgJOuZLgadqpfZyADxSXZfIFUQa",
-        'HOST': 'dpg-bour3678jd5rqb46aoag',
-        'PORT': '5432'
-        }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+
 }
 
 # Password validation
