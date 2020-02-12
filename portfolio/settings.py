@@ -35,7 +35,9 @@ INSTALLED_APPS = [
     'django.contrib.gis',
     'homepage',
     'projects',
-    'weatherapp'
+    'weatherapp',
+    'blog',
+    'secretpage'
 
 ]
 
@@ -128,5 +130,8 @@ STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
 ]
+
+LOGIN_REDIRECT_URL = 'secret'
+LOGOUT_REDIRECT_URL = 'home'
 
 EMAIL_BACKEND = 'django.core.email.backends.console.EmailBackend'
