@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Weather Today</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/material-design-iconic-font.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/venobox.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/slick.min.css'' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+    <!-- modernizr js -->
+    <script src="{% static 'assets/js/vendor/modernizr-2.8.3.min.js' %}"></script>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />-->
 </head>
 
 <body>
@@ -73,8 +83,42 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
-    </footer>
+    <footer class="footer white-bg ptb-20 clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="left pull-left">
+                    <p>Copyright &copy; 2017 <a href="https://themeforest.net/user/regaltheme/portfolio" target="_blank">Regaltheme</a>.</p>
+                </div>
+                <div class="social-icon simple pull-right">
+                    <ul class="clearfix">
+
+                        <li><a href="https://twitter.com/ChiGreentino" target="_blank"><i class="zmdi zmdi-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/erin-claudio/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
+                        <li><a href="https://github.com/ErinClaudio?tab=repositories" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<!-- All JS Here -->
+<!-- jQuery Latest Version -->
+<script src="{% static 'assets/js/vendor/jquery-1.12.4.min.js' %}"></script>
+<!-- Bootstrap JS -->
+<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+<!-- Isotope -->
+<script src="{% static 'assets/js/isotope.pkgd.js' %}"></script>
+<!-- Validate -->
+<script src="{% static 'assets/js/jquery.validate.min.js' %}"></script>
+<!-- Slick Slider JS -->
+<script src="{% static 'assets/js/slick.min.js' %}"></script>
+<!-- Plugins JS -->
+<script src="{% static 'assets/js/plugins.js' %}"></script>
+<!-- main JS -->
+<script src="{% static 'assets/js/main.js' %}"></script>
 </body>
 
 </html>
