@@ -7,8 +7,8 @@ ADDRESS
 (https://www.erinclaudio.com/)
 
 DESCRIPTION
-A Python/Django project with a modified Bootstrap frontend
 
+A Python/Django project with a modified Bootstrap frontend
 This Project is hosted in Render. With, the smaller projects hosted in Heroku and Python anywhere. 
 
 HIGHLIGHTS
