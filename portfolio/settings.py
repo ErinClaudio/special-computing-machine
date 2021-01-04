@@ -19,7 +19,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '=%7jav99#+(i3t1b+ifdzaskrt7#ou_z@np*a8gsy-fgh#5l5c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [os.getenv('RENDER_EXTERNAL_HOSTNAME', default=''), ('erinclaudio.com'), ('127.0.0.1'), ('localhost')]
 
